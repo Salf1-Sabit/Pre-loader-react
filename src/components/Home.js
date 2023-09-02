@@ -114,8 +114,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="landing-page1"></div>
-        <div className="landing-page2"></div>
+        <div className="landing-page1">
+          <h1>Welcome to The Landing Page</h1>
+        </div>
       </main>
     </div>
   );
