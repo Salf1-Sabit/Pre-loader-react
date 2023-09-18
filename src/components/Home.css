@@ -1,0 +1,71 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("https://fonts.cdnfonts.com/css/roboto");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.loader-page {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 5vw;
+}
+
+.loader-page .developed-by {
+  font-family: "Gilroy-regular", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+}
+
+.loader-page .loading-progress {
+  font-family: "Roboto Medium", sans-serif;
+  font-weight: 100;
+  font-size: 4.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.progress-items-box1 {
+  overflow: hidden;
+}
+
+.progress-items-box2 {
+  overflow: hidden;
+}
+
+.progress-items-box3 {
+  overflow: hidden;
+}
+
+.progress-items-box4 {
+  overflow: hidden;
+}
+
+.landing-page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Medium", sans-serif;
+}
+
+.landing-page1 > h1 {
+  font-size: 4vw;
+  text-transform: uppercase;
+}
